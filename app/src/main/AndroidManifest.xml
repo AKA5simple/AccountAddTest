@@ -25,6 +25,9 @@
         <activity
             android:name=".AccountType"
             tools:ignore="Instantiatable"></activity>
+        <activity
+            android:name=".FillInformation"
+            tools:ignore="Instantiatable"></activity>
     </application>
 
 </manifest>

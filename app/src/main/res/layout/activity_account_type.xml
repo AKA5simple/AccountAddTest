@@ -6,14 +6,13 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="100dp"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/button_daily_use"
+            android:id="@+id/button_Daily_Use"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -32,16 +31,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="交通" />
+
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteY="246dp"
-        tools:ignore="MissingConstraints">
+        android:layout_marginTop="40dp">
 
         <Button
             android:id="@+id/button_Shopping"
@@ -58,12 +55,25 @@
             android:text="娱乐" />
 
         <Button
-            android:id="@+id/button_sports"
+            android:id="@+id/button_Sports"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="运动" />
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+    <Button
+        android:id="@+id/button_Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" />
+    </LinearLayout>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
